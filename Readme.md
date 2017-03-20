@@ -1,74 +1,32 @@
-# blog
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BLOG</title>
+<head><meta charset="utf-8" class="next-head"><title data-jsx="2779372333" class="next-head">Guillermo Rauch</title><meta name="viewport" content="width=device-width, initial-scale=1" data-jsx="902788442" class="next-head"><style id="__jsx-style-902788442">
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
 
-This is the blog that powers `rauchg.com`, built on
-[next.js](https://zeit.co/blog/next) and
-deployed to the cloud via [now](https://zeit.co/now).
+      body {
+        font: 13px Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+      }
 
-Depends on the [blog-views](https://github.com/rauchg/blog-views) microservice
-for the realtime views display.
+      a {
+        color: #22BAD9;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+      }
 
-## How to run
+      a:hover {
+        color: #fff;
+        background: #22BAD9;
+        text-decoration: none;
+      }
+    </style><style id="__jsx-style-3722661638">.main[data-jsx="3722661638"] {padding: 25px 50px;}.logo[data-jsx="3722661638"] {padding-bottom: 50px;}a[data-jsx="3722661638"] {text-decoration: none;}@media (max-width: 500px) {.main[data-jsx="3722661638"] {padding: 25px 15px;}.logo[data-jsx="3722661638"] {padding-bottom: 20px;}}</style><style type="text/css" data-glamor=""></style><style>.home[data-jsx="2779372333"] {position: absolute;top: 0;left: 0;right: 0;bottom: 0;display:-webkit-flex; display:flex;align-items: center;justify-content: center;z-index: -1;}.main[data-jsx="2779372333"] {-webkit-flex: none;-moz-flex: none;flex: none;text-align: center;}h1[data-jsx="2779372333"] {font-size: 14px;font-weight: normal;}nav[data-jsx="2779372333"] {margin-top: 20px;}a[data-jsx="2779372333"] {display: inline-block;margin: 0 15px;text-decoration: none;}</style></head>
+</head>
+<body>
+<body><div><div id="__next"><div data-reactroot="" class="main" data-jsx="3722661638"><div class="logo" data-jsx="3722661638"><a data-jsx="3722661638" href="/">rauchg.com</a><!-- react-text: 57 --> <!-- /react-text --><!-- react-text: 58 -->(<!-- /react-text --><a href="https://github.com/Easonan" target="_blank" data-jsx="3722661638">src</a><!-- react-text: 60 -->)<!-- /react-text --></div><!-- react-empty: 61 --><div class="home" data-jsx="2779372333"><div class="main" data-jsx="2779372333"><h1 data-jsx="2779372333">Guillermo Rauch</h1><nav data-jsx="2779372333"><a target="_blank" href="" data-jsx="2779372333">Twitter</a><a data-jsx="2779372333" href="/essays">Essays</a><a href="m13409692875@163.com" data-jsx="2779372333">Email</a></nav></div></div><!-- react-empty: 69 --><div data-jsx="902788442"><!-- react-empty: 71 --><!-- react-empty: 72 --></div><!-- react-empty: 73 --></div></div><script>__NEXT_DATA__ = {"component":"module.exports=webpackJsonp([9],{226:function(e,t,a){\"use strict\";function l(e){return e\u0026\u0026e.__esModule?e:{default:e}}Object.defineProperty(t,\"__esModule\",{value:!0});var n=a(1),d=l(n),s=a(0),r=l(s),u=a(56),i=l(u),o=a(74),f=l(o),c=a(24),m=l(c);t.default=function(){return r.default.createElement(i.default,null,r.default.createElement(m.default,null,r.default.createElement(\"title\",{\"data-jsx\":2779372333},\"Guillermo Rauch\")),r.default.createElement(\"div\",{className:\"home\",\"data-jsx\":2779372333},r.default.createElement(\"div\",{className:\"main\",\"data-jsx\":2779372333},r.default.createElement(\"h1\",{\"data-jsx\":2779372333},\"Guillermo Rauch\"),r.default.createElement(\"nav\",{\"data-jsx\":2779372333},r.default.createElement(\"a\",{target:\"_blank\",href:\"https://twitter.com/rauchg\",\"data-jsx\":2779372333},\"Twitter\"),r.default.createElement(f.default,{href:\"/essays\"},r.default.createElement(\"a\",{\"data-jsx\":2779372333},\"Essays\")),r.default.createElement(\"a\",{href:\"mailto:rauchg@gmail.com\",\"data-jsx\":2779372333},\"Email\")))),r.default.createElement(d.default,{styleId:2779372333,css:'.home[data-jsx=\"2779372333\"] {position: absolute;top: 0;left: 0;right: 0;bottom: 0;display:-webkit-flex; display:flex;align-items: center;justify-content: center;z-index: -1;}.main[data-jsx=\"2779372333\"] {-webkit-flex: none;-moz-flex: none;flex: none;text-align: center;}h1[data-jsx=\"2779372333\"] {font-size: 14px;font-weight: normal;}nav[data-jsx=\"2779372333\"] {margin-top: 20px;}a[data-jsx=\"2779372333\"] {display: inline-block;margin: 0 15px;text-decoration: none;}'}))}},438:function(e,t,a){e.exports=a(226)}},[438]);","errorComponent":"module.exports=webpackJsonp([10],{219:function(e,t,a){\"use strict\";function n(e){return e\u0026\u0026e.__esModule?e:{default:e}}Object.defineProperty(t,\"__esModule\",{value:!0});var l=a(10),i=n(l),r=a(8),d=n(r),s=a(9),o=n(s),u=a(12),c=n(u),f=a(11),p=n(f),x=a(1),m=n(x),h=a(0),g=n(h),v=a(24),y=n(v),b=function(e){function t(){return(0,d.default)(this,t),(0,c.default)(this,(t.__proto__||(0,i.default)(t)).apply(this,arguments))}return(0,p.default)(t,e),(0,o.default)(t,[{key:\"render\",value:function(){var e=this.props.statusCode,t=404===e?\"This page could not be found\":e?\"Internal Server Error\":\"An unexpected error has occurred\";return g.default.createElement(\"div\",{className:\"error\",\"data-jsx\":676398231},g.default.createElement(y.default,null,g.default.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\",\"data-jsx\":676398231})),g.default.createElement(\"div\",{\"data-jsx\":676398231},e?g.default.createElement(\"h1\",{\"data-jsx\":676398231},e):null,g.default.createElement(\"div\",{className:\"desc\",\"data-jsx\":676398231},g.default.createElement(\"h2\",{\"data-jsx\":676398231},t,\".\"))),g.default.createElement(m.default,{styleId:3608526279,css:\"\\n        body { margin: 0 }\\n      \"}),g.default.createElement(m.default,{styleId:965400277,css:'.error[data-jsx=\"676398231\"] {color: #000;background: #fff;font-family: -apple-system, BlinkMacSystemFont, Roboto, \"Segoe UI\", \"Fira Sans\", Avenir, \"Helvetica Neue\", \"Lucida Grande\", sans-serif;height: 100vh;text-align: center;display:-webkit-flex; display:flex;-webkit-flex-direction: column;-moz-flex-direction: column;flex-direction: column;align-items: center;justify-content: center;}.desc[data-jsx=\"676398231\"] {display: inline-block;text-align: left;line-height: 49px;height: 49px;vertical-align: middle;}h1[data-jsx=\"676398231\"] {display: inline-block;border-right: 1px solid rgba(0, 0, 0,.3);margin: 0;margin-right: 20px;padding: 10px 23px 10px 0;font-size: 24px;font-weight: 500;vertical-align: top;}h2[data-jsx=\"676398231\"] {font-size: 14px;font-weight: normal;margin: 0;padding: 0;}'}))}}],[{key:\"getInitialProps\",value:function(e){var t=e.res,a=e.xhr,n=t?t.statusCode:a?a.status:null;return{statusCode:n}}}]),t}(g.default.Component);t.default=b},436:function(e,t,a){e.exports=a(219)}},[436]);","props":{},"pathname":"/","query":{},"err":null,"ids":[]}; module={};</script></div><div><script type="text/javascript" ></script><script type="text/javascript" ></script></div></body>
 
-### Development
-
-All that's needed to run this blog is:
-
-```
-npm install
-npm run dev
-```
-
-Then head to `http://localhost:3000`. Changes you make to
-components will henceforth be reflected there in realtime.
-
-### Deployment
-
-All that's needed to deploy this blog to the cloud is to
-execute a single command ([install](https://zeit.co/download) it here)
-
-```bash
-now
-```
-
-When I deploy, I get a new instance of the blog at a new, immutable
-URL. When I browse to it and verify it looks ok, I set up an alias
-targetting the production URL `rauchg.com`.
-
-```bash
-now alias <url> rauchg.com
-```
-
-## Architecture
-
-### Pure components
-
-Every stateless pure component is found under `./components`.
-
-Every component that has to do with styling the post's markup
-is found under `./components/post/`
-
-These components make up the _style guide_ of the application.
-
-### Blog posts
-
-Every blog post is a static page hosted under `pages/$year/`.
-
-This allows every post to load arbitrary modules, have custom layouts
-and take advantage of automatic code splitting and lazy loading.
-
-This means that the bloat of a single post doesn't "rub off on" the
-rest of the site.
-
-An index of all posts is maintained in JSON format as `./posts.json`
-for practical reasons.
-
-### Custom server
-
-I set up a `server.js` that boots up Next.js programatically. This
-gives me complete control over the HTTP request and response cycle.
-
-In this case, the routes structured under `pages/` are sufficient,
-but I set up a few redirections to retain compatibility with my
-previous WordPress based setup.
-
-To start the custom server, I run `node server.js` upon deployment.
+</body>
+</html>
